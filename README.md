@@ -1,14 +1,24 @@
 # Covid19-data-analysis-with-SQL
 ## Table of content
-- Project Overview
-- Data Source
-- Tools used
+- [Project Overview](#project-overview)
+- [Data Source](#data-source)
+- [Tools used](#tools-used)
+- [Analysis](#analysis)
+  - [Import data](#import-data)
+  - [Data analysis](#data-analysis)
+- [Result and Findings](#result-and-findings)
+  
 ### Project Overview
 This project is to show case my SQL knowledge by analyze Covid19 data using SQL tools such as creating database, import data, creating view, query using aggregated functions and joining tables.
-### Data Source https://ourworldindata.org/covid-deaths
+
+### Data Source
+https://ourworldindata.org/covid-deaths
+
 ### Tools used
 - Excel
 - SQL Server management studio
+
+### Analysis
 #### Import data
 
 1.	Download data from https://ourworldindata.org/covid-deaths
@@ -136,7 +146,7 @@ where New_vaccinated is not null and  VaccinatedByDate is not null
 ```
 ![image](https://github.com/nghphucthinh/Covid19-data-cleaning-and-exploration-with-SQL/assets/89053686/f7779c6a-7354-477e-881d-082375cdcce2)
 
-#### Result/Findings
+### Result and Findings
 
 - The country with highest infection rate (total cases over population) was Brunei with 76.5%, follow by Cyprus and San Marino with 76% and 75%
 - The higher income countries tend to have more infection rate compared to lower income countries. This might be due to the high population density of those countries or many lower income countries don’t have the accurate record of those who are infected. However, this ranking is reverse when it comes to death rate, as the lower income the countries have the higher their death rate gets. 
